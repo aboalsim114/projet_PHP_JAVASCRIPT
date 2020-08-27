@@ -1,0 +1,16 @@
+`<div class="container">
+            <div class="row">
+            <div class="card" style="width: 18rem;">
+              <img id="img" class="card-img-top" src="${data.articles[1].urlToImage}" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 id="titre" class="card-title">${data.articles[1].title}</h5>
+                 </div>
+                 <ul class="list-group list-group-flush">
+                   <li id="date"  class="list-group-item"> date : ${data.articles[1].publishedAt}</li>
+                   <li id="source"  class="list-group-item">Source : ${data.articles[1].source.name}</li>
+                 </ul>
+                 <div class="card-body">
+                 </div>
+               </div> 
+               </div>
+            </div>`
